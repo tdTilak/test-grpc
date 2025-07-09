@@ -2,13 +2,12 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"net"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
-	pb "./hello" // Import the generated protobuf code
+	pb "grpc-hello-world/hello" // Use module path instead of relative import
 )
 
 const (
