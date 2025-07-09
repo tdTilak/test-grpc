@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-	pb "./hello" // Import the generated protobuf code
+	pb "grpc-hello-world/hello" // Use module path instead of relative import
 )
 
 const (
